@@ -1,0 +1,173 @@
+<html>
+<head>
+	<title>Untitled Document</title>
+	<style type="text/css">
+
+#banner {
+	text-align: center;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sol {
+	background-color: #09F;
+	float: left;
+	width: 20%;
+	line-height: 50px;
+	text-align: center;
+}
+#menulabel {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+}
+
+#orta {
+	background-color: #CCC;
+	float: left;
+	height: 50px;
+	width: 60%;
+	line-height: 50px;
+	text-align: center;
+}
+#sag {
+	background-color: #060;
+	float: left;
+	height: 50px;
+	width: 20%;
+	line-height: 50px;
+	text-align: center;
+}
+#kudret {
+	background-color: #FCC;
+	width: 100%;
+	display:none;
+}
+#sol:hover #kudret {
+	display:block;
+}
+#baslik {
+	line-height: 50px;
+}
+ #menu {
+	background-color: #000;
+	width: 100%;
+	text-align: center;
+}
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	background-color: #000;
+	line-height: 50px;
+	text-align: center;
+}
+#menu ul li:hover {
+	background-color: #FFF;
+}
+#menu ul li:hover a {
+	color: #000;
+}
+
+
+#menu ul li a {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+#menulabel
+{
+	display:none;
+}
+#menukontrol
+{
+	display:none;
+}
+
+@media screen and (max-device-width:1080px)
+{
+	#menulabel
+{
+	display:inline-block;
+	font-size:300%;
+}
+
+#menukontrol ~ ul
+{
+	display:none;
+	}
+#menukontrol:checked ~ ul
+{
+	display:block;
+	}
+	#sol,#sag,#orta
+	{
+		width:100%;
+		font-size:100%;
+	}
+	p
+	{
+		font-size:100%;
+	}
+	img 
+ {
+	width:100%;
+	}
+	#baslik
+	{
+		font-size:100%;
+	}
+	#kudret
+	{
+		font-size:100%;
+		}
+		#menu ul li
+		{
+			display:block;
+			width:100%;
+			font-size:300%;
+			padding:5px;
+			}
+}
+
+ </style>
+</head>
+<body>
+<div id="menu">
+ <input id="menukontrol" type="checkbox" />
+ <label id="menulabel" for="menukontrol">MENU</label>
+ <ul>
+  <li><a href="#">Okul Hayatı</a></li>
+  <li><a href="#">Askeri Hayatı</a></li>
+  <li><a href="#">Siyasi Hayatı</a></li>
+  <li><a href="#">Cumhuriyet Devrimleri</a></li>
+ </ul>
+</div>
+<div id="banner" >
+  <img src="resim/ata2.jpg"  />
+  <h1>Mustafa Kemal Atatürk</h1>
+</div>
+<div id="yazi">
+ <p>   Ey Türk gençliği! Birinci vazifen; Türk istiklalini, Türk cumhuriyetini, ilelebet muhafaza ve müdafaa etmektir.</p>
+ <p>   Mevcudiyetinin ve istikbalinin yegâne temeli budur. Bu temel, senin en kıymetli hazinendir. İstikbalde dahi seni bu hazineden mahrum etmek isteyecek dâhilî ve haricî bedhahların olacaktır. Bir gün, istiklal ve cumhuriyeti müdafaa mecburiyetine düşersen, vazifeye atılmak için içinde bulunacağın vaziyetin imkân ve şeraitini düşünmeyeceksin. Bu imkân ve şerait, çok namüsait bir mahiyette tezahür edebilir. İstiklal ve cumhuriyetine kastedecek düşmanlar, bütün dünyada emsali görülmemiş bir galibiyetin mümessili olabilirler. Cebren ve hile ile aziz vatanın bütün kaleleri zapt edilmiş, bütün tersanelerine girilmiş, bütün orduları dağıtılmış ve memleketin her köşesi bilfiil işgal edilmiş olabilir. Bütün bu şeraitten daha elim ve daha vahim olmak üzere, memleketin dâhilinde iktidara sahip olanlar, gaflet ve dalalet ve hatta hıyanet içinde bulunabilirler. Hatta bu iktidar sahipleri, şahsi menfaatlerini müstevlilerin siyasi emelleriyle tevhit edebilirler. Millet, fakruzaruret içinde harap ve bitap düşmüş olabilir.</p>
+ <p>   Ey Türk istikbalinin evladı! İşte, bu ahval ve şerait içinde dahi vazifen, Türk istiklal ve cumhuriyetini kurtarmaktır. Muhtaç olduğun kudret, damarlarındaki asil kanda mevcuttur.</p>
+</div>
+<div id="sol">
+<div id="baslik">Okul hayatı</div>
+<div id="kudret">
+Muhtaç olduğun kudret, damarlarındaki asil kanda mevcuttur.
+</div>
+</div>
+<div id="orta">
+main içerik
+</div>
+<div id="sag">
+içerik
+</div>
+
+</body>
+</html>
